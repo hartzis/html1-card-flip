@@ -7,8 +7,13 @@
 }
 
 .secondary {
-	-webkit-transform: rotateY(-180deg);
+	-webkit-transform: rotateY(180deg);
 
+}
+
+.portfolio-item-container {
+	-webkit-perspective: 600px;
+	float: left;
 }
 
 .portfolio-item:hover {
@@ -17,7 +22,7 @@
 
 .portfolio-item {
 	-webkit-transform-style: preserve-3d;
-	transition: -webkit-transform 1s;
+	transition: -webkit-transform 0.75s;
 }
 
 
